@@ -1,7 +1,7 @@
 ARG GOCD_VERSION=v18.9.0
 ARG UID=1000
 ARG GID=1000
-FROM jrandall/docker-gocd-agent-ubuntu-16.04:${GOCD_VERSION}_${UID}_${GID}
+FROM jrandall/gocd-agent-ubuntu-16.04:${GOCD_VERSION}_${UID}_${GID}
 ARG DOCKERGID=999
 
 RUN \
